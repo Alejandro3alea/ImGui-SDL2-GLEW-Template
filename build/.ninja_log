@@ -1,0 +1,13 @@
+# ninja log v5
+35	399	1741256578635127852	CMakeFiles/ImGuiTemplate.dir/third-party/imgui/misc/fonts/binary_to_compressed_c.cpp.o	4228b5fe04fd795b
+10	658	1741256578894109562	CMakeFiles/ImGuiTemplate.dir/third-party/imgui/imgui_impl_opengl3.cpp.o	28f64a6fe79da8fa
+27	1136	1741256579365076242	CMakeFiles/ImGuiTemplate.dir/third-party/imgui/misc/cpp/imgui_stdlib.cpp.o	5ea0b2113d873a0e
+0	3007	1741256581240943216	CMakeFiles/ImGuiTemplate.dir/src/main.cpp.o	38085e3a43cba159
+13	4323	1741256582559849340	CMakeFiles/ImGuiTemplate.dir/third-party/imgui/imgui_impl_sdl2.cpp.o	8cde12d051bf4cf7
+407	4828	1741256583048814484	CMakeFiles/ImGuiTemplate.dir/third-party/imgui/misc/freetype/imgui_freetype.cpp.o	26b1f5e63e2c3216
+18	5543	1741256583778762346	CMakeFiles/ImGuiTemplate.dir/third-party/imgui/imgui_tables.cpp.o	733314d5ae6ac4c5
+3	5690	1741256583924751918	CMakeFiles/ImGuiTemplate.dir/third-party/imgui/imgui_demo.cpp.o	4b6666dfec782e39
+6	6438	1741256584675698174	CMakeFiles/ImGuiTemplate.dir/third-party/imgui/imgui_draw.cpp.o	6cb11c3b17617815
+21	7074	1741256585309652744	CMakeFiles/ImGuiTemplate.dir/third-party/imgui/imgui_widgets.cpp.o	1f9c205518ab4753
+2	8308	1741256586542564209	CMakeFiles/ImGuiTemplate.dir/third-party/imgui/imgui.cpp.o	e01e05d300176e1d
+8309	8774	1741256587006530851	ImGuiTemplate	1c4977623211119f
