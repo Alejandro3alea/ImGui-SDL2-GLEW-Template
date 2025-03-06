@@ -5,6 +5,7 @@
 #include <GL/glew.h>
 #include <GL/gl.h>
 #include <SDL2/SDL.h>
+#include <glm/glm.hpp>
 
 #include <memory>
 #include <string>
@@ -17,16 +18,16 @@ struct Window
 	void Close() { mbIsClosed = true; }
 	bool IsClosed() { return mbIsClosed; }
 
-	std::pair<u32, u32> Size() { return mSize; }
+	glm::uvec2 Size() { return mSize; }
 	float AspectRatio() { return mAspectRatio; }
 
 	operator SDL_GLContext() const { return mWinContext; }
 	operator SDL_Window*() const { return mWindow_SDL; }
 
-	void Resize(std::pair<u32, u32> newSize) { mSize = newSize; }
+	void Resize(const glm::uvec2& newSize) { mSize = newSize; }
 
 private:
-	std::pair<u32, u32> mSize;
+	glm::uvec2 mSize;
 	SDL_Window* mWindow_SDL;
 	SDL_GLContext mWinContext;
 	float mAspectRatio;
