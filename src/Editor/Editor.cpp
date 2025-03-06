@@ -19,6 +19,7 @@ void ImGuiEditor::Initialize()
 	ImGui::CreateContext();
 	ImGuiIO& io = ImGui::GetIO(); (void)io;
 	io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;
+    io.ConfigFlags |= ImGuiConfigFlags_NavEnableGamepad;
 	io.ConfigFlags |= ImGuiConfigFlags_DockingEnable;
 
 	mDockspaceFlags |= ImGuiDockNodeFlags_NoDockingInCentralNode;
@@ -105,7 +106,7 @@ void ImGuiEditor::Dockspace()
 
 void ImGuiEditor::MainMenu()
 {
-	static bool ShowImGuiDemoWindow = true;
+	static bool ShowImGuiDemoWindow;
 
 	if (ImGui::BeginMainMenuBar())
 	{
